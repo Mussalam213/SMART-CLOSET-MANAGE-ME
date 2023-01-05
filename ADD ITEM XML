@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout>
+	xmlns:android="http://schemas/apk/res/android"
+	xmlns:tools="http://schemas/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="Add Items">
+	<!--text view for heading-->
+	<TextView
+		android:id="@+id/idTVHeader"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:gravity="center_horizontal"
+		android:padding="5dp"
+		android:text="Smart Closet-Manage Me"
+		android:textAlignment="center"
+		android:textColor="@color/purple_700"
+		android:textSize="18sp" />
+
+	<EditText
+		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idTVHeader"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="50dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product ID"
+		android:inputType="text" />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtUserName"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product Type"
+		android:inputType="text" />
+<EditText
+		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtUserName"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product Brand"
+		android:inputType="text" />
+<EditText
+		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtUserName"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product Liking"
+		android:inputType="text" />
+<EditText
+		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtUserName"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product Color"
+		android:inputType="text" />
+<EditText
+		
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtUserName"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:hint="Product Image"
+		android:inputType="image" />
+
+	<!--button to register our new user-->
+	<Button
+		android:id="@+id/idBtnAddItem"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/idEdtPassword"
+		android:layout_marginStart="10dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="10dp"
+		android:text="Add Item"
+		android:textAllCaps="false" />
+
+</RelativeLayout>
